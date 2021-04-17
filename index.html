@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/overlay.js"></script>
+    <script src="scripts/translate.js"></script>
+    <title>Japanese Beverages</title>
+</head>
+<body id="landing-body">
+    <nav id="nav" class="overlay">
+        <a href="javascript:void(0)" onclick="closeNav()">
+            <img alt="cancel" class="close" src="assets/cancel.svg">
+        </a>
+        <div class="about-container">
+            <h3>About the website</h3>
+            <p style="margin-bottom: 20px">
+                This website was created with ❤️ and 9 cups of ☕ by Karolina Lencina.
+                I am a web-dev student with an interest in Japanese culture and I enjoy experimenting in the kitchen.
+                I tried all of the mentioned beverages and made some of them too.
+            </p>
+            <p>
+                The information is sourced from a combination of my own knowledge and
+                these websites:
+                <a class="websites" href="https://matcha-jp.com/en" target="_blank">Match JP</a>,
+                <a class="websites" href="https://yakulteurope.com/" target="_blank">Yakult</a>,
+                <a class="websites" href="https://www.ippodo-tea.co.jp/en/" target="_blank">Ippodo Tea</a>,
+                <a class="websites" href="https://www.japan-guide.com/" target="_blank">Japan Guide</a>,
+                <a class="websites" href="https://nankaishochu.com/" target="_blank">Nankai Shochu</a>,
+                <a class="websites" href="https://www.japanese-wiki-corpus.org/" target="_blank">Japanese Wiki</a> (my favourite one).
+                <a class="websites"></a>
+            </p>
+        </div>
+    </nav>
+    <a onclick="openNav()" class="menu-btn">
+        <img alt="menu" src="assets/menu.svg" style="cursor: pointer">
+    </a>
+    <section id="circle">
+        <div class="content">
+            <h1 onmouseover="over(this)" onmouseout="out(this)">こんにちは</h1>
+            <p class="p">
+                Most people know what Japanese kitchen tastes like.
+                But can the same be said about Japanese drinks?
+                Click on the arrow and create your beverage!
+            </p>
+            <a class="start-btn" href="hot-cold.html">
+                <img alt="start" class="arrow" src="assets/arrow.svg">
+            </a>
+        </div>
+    </section>
+</body>
+</html>
+

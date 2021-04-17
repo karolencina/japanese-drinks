@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/index.css">
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <title>Plum or Rice? - Japanese Drinks</title>
+</head>
+<body class="choices-body">
+<section>
+    <div class="top-wrap">
+        <a onclick="goBack()"><img class="back" src="assets/back.svg"></a>
+        <h2 id="title1">Plum or Rice?</h2>
+        <a onclick="confirmCancel()"><img class="cancel" alt="cancel" src="assets/cancel.svg"></a>
+    </div>
+    <p class="info">
+        I just hope you're not driving.
+        Which alcohol would you like to try - plum or rice?
+    </p>
+</section>
+<section class="chosen-wrap">
+    <h4 class="chosen">Chosen:</h4>
+    <ul>
+        <li><img class="chosen-img" src="assets/cold.svg"></li>
+        <li><img class="chosen-img" src="assets/alc.svg"></li>
+    </ul>
+</section>
+<section class="options">
+    <div class="choice">
+        <a href="end-umeshu.html">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_qphfnt4j.json"
+                           background="transparent"
+                           speed="1"
+                           style="width: 170px; height: 170px;"
+                           hover
+                           loop
+            >
+            </lottie-player>
+        </a>
+    </div>
+    <div class="choice">
+        <a href="end-sake.html">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_enkkbrgt.json"
+                           mode="bounce"
+                           background="transparent"
+                           speed="1"
+                           style="width: 150px; height: 150px;"
+                           hover
+                           loop
+            >
+            </lottie-player>
+        </a>
+    </div>
+</section>
+</body>
+</html>
