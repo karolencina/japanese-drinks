@@ -1,7 +1,7 @@
-function over(x) {
+const toLatin = x => {
   x.innerHTML = "Konnichiwa";
 }
 
-function out(x) {
+const toJapanese = x => {
   x.innerHTML = "こんにちは";
 }
