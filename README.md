@@ -1,5 +1,4 @@
-# karolencina.github.io
-Japanese Drinks - a CYOA game
+# Japanese Drinks
 
 *Japanese Drinks* is a Choose-your-own-adventure game which I had a lot of fun 
 creating as part of my *Web Technologies* coursework. 
