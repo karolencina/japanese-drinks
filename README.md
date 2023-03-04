@@ -1,4 +1,4 @@
-# Japanese Drinks
+# Japanese Drinks 1.0
 
 *(This is the original version created with HTML, CSS and Vanilla JS.*
 
