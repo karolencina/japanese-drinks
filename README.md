@@ -1,4 +1,4 @@
-# Japanese Drinks
+# Japanese Drinks 2.0
 
 *This is a new version of Japanese Drinks created with React.js*
 
