@@ -3,6 +3,7 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
 import About from './pages/About'
 import Home from  './pages/Home'
+import Choose from "./pages/Choose";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/about" element={<About/>}/>
+                <Route path="/choose" element={<Choose/>}/>
             </Routes>
         </BrowserRouter>
     )
