@@ -1,7 +1,14 @@
 import React from "react";
+import Circle from "../components/Circle";
+import InfoBtn from "../components/buttons/InfoBtn";
 
 const Home = () => {
-    return <h1>Home</h1>
+    return (
+        <>
+            <InfoBtn/>
+            <Circle/>
+        </>
+    )
 }
 
 export default Home;
