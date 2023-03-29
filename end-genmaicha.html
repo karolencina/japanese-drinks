@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="icon" type="image/png" href="assets/icon.png"/>
-    <script type="text/javascript" src="scripts/index.js"></script>
+
     <title>Genmaicha - Japanese Drinks</title>
 </head>
-<body class="choices-body" id="card">
-<section>
-    <div class="top-wrap">
-        <a href="hot-cold.html"><img class="back" src="assets/restart.svg"></a>
-        <h2>Genmaicha</h2>
-        <a onclick="confirmCancel()"><img class="cancel" src="assets/cancel.svg"></a>
+<body>
+    <nav class="result-nav">
+        <a href="hot-cold.html">
+            <img alt="Icon back" class="icon-back" src="assets/icons/arrow-back-sharp.svg">
+        </a>
+        <a onclick="confirmCancel()">
+            <img class="icon-cancel" src="assets/icons/close-sharp.svg">
+        </a>
+    </nav>
+    <div class="result-card">
+                <h2>Genmaicha</h2>
+                <p class="result-text">
+                    You got Genmaicha! Genmaicha is a mixture of almost the same amount of green tea
+                    heated at high temperatures, and brown rice steamed and roasted until it gets a light
+                    ginger color or bursts like popcorn. Some also contain a dash of salt. The quality of
+                    genmaicha depends more on the quality of the brown rice than the tea leaves.
+                </p>
+                <div class="result-img" style="width: 300px">
+                    <img src="assets/results/genmaicha.svg">
+                </div>
     </div>
-    <p class="info">
-        You got Genmaicha! Genmaicha is a mixture of almost the same amount of green tea
-        heated at high temperatures, and brown rice steamed and roasted until it gets a light
-        ginger color or bursts like popcorn. Some also contain a dash of salt. The quality of
-        genmaicha depends more on the quality of the brown rice than the tea leaves.
-    </p>
-</section>
-<section class="options">
-    <div class="result-img" style="width: 300px">
-        <img src="assets/results/genmaicha.svg">
-    </div>
-</section>
+    <script type="text/javascript" src="scripts/index.js"></script>
 </body>
 </html>

@@ -1,14 +1,9 @@
-* {
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 500;
-    color: #202020;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+    --black: #1F1F1F;
+    --white: #EEEEEE;
 }
 
 html {
-    height: 100%;
 }
 
 title {
@@ -16,7 +11,10 @@ title {
 }
 
 body {
-    background-color: #F6F2EB;
+    background-color: var(--black);
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: normal;
+    color: var(--black);
 }
 
 .choices-body {
@@ -135,14 +133,7 @@ h1 {
     opacity: 0;
 }
 
-h2 {
-    text-transform: uppercase;
-    font-size: 36px;
-    font-weight: 500;
-    text-align: center;
-    margin: 0;
-    line-height: 1;
-}
+
 
 .back, .cancel, .menu {
     cursor: pointer;
@@ -157,11 +148,7 @@ transition: 300ms;
 vector-effect: non-scaling-stroke;
 }
 
-.info {
-    border-bottom: 3px solid #202020;
-    padding: 30px 0 30px 0;
-    margin: 0;
-}
+
 
 .chosen-wrap {
     display: flex;
@@ -259,6 +246,59 @@ li {
     width: 220px;
     margin: 30px;
     align-self: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+}
+
+.result-nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding: 25px;
+    margin: auto;
+}
+
+.icon-cancel {
+    height: 50px;
+    width: 50px;
+}
+
+.icon-back {
+    height: 50px;
+    width: 50px;
+    color: var(--white);
+    stroke: var(--white);
+    fill: var(--white);
+}
+
+.result-card {
+    background: var(--white);
+    position: absolute;
+    width: 379px;
+    height: 517px;
+    padding: 50px;
+    border-radius: 50px;
+    transform: rotate(0deg);
+    transform-origin: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.result-card:hover {
+    transform: rotate(-5deg);
+    transform-origin: center;
+}
+
+.result-text {
+    border-top: 2px solid #202020;
+    padding: 30px 0 30px 0;
+    margin: 20px 0;
 }
 
 @media only screen and (max-width: 700px) {
