@@ -22,5 +22,3 @@ const resultCardHeight = resultCard.offsetHeight;
 
 resultCard.style.top = `calc(50% - ${resultCardHeight / 2}px)`;
 resultCard.style.left = `calc(50% - ${resultCardWidth / 2}px)`;
-
-console.log(resultCard);
