@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&display=swap');
+
 :root {
     --black: #1F1F1F;
     --white: #EEEEEE;
@@ -10,13 +12,6 @@ title {
     text-transform: uppercase;
 }
 
-body {
-    background-color: var(--black);
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: normal;
-    color: var(--black);
-}
-
 .choices-body {
     padding: 30px;
     height: 93vh;
@@ -25,63 +20,6 @@ body {
 #card {
     border: 3px solid #202020;
     margin: 30px;
-}
-
-#landing-body {
-    background-color: #202020;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    height: 100%;
-}
-
-.menu-btn {
-    position: absolute;
-    top: 60px;
-    right: 60px;
-    transform: scale(1, 1);
-    transition: 400ms;
-}
-
-.menu-btn:hover {
-    transform: scale(0.8, 0.8);
-    transition: 400ms;
-}
-
-.overlay {
-    height: 0;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #F6F2EB;
-    overflow-y: hidden;
-    transition: 400ms;
-}
-.overlay .close {
-    position: absolute;
-    font-size: 60px;
-    top: 60px;
-    right: 60px;
-}
-
-.close {
-    transform: scale(1, 1);
-    transition: 400ms;
-}
-
-.close:hover {
-    transform: scale(0.8, 0.8);
-    transition: 400ms;
-}
-
-.about-container {
-    position: relative;
-    text-align: center;
-    top: 20%;
-    padding: 0 60px;
 }
 
 h3 {
@@ -94,17 +32,6 @@ h3 {
     font-style: italic;
 }
 
-#circle {
-    height: 500px;
-    width: 500px;
-    padding: 50px;
-    background-color: #F6F2EB;
-    border-radius: 50%;
-    border: none;
-    position: relative;
-    display: flex;
-}
-
 .content {
     display: flex;
     flex-direction: column;
@@ -112,13 +39,6 @@ h3 {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-}
-
-h1 {
-    font-size: 44px;
-    font-weight: 600;
-    font-family: "Noto Sans JP", sans-serif;
-    cursor: default;
 }
 
 .top-wrap {
@@ -212,40 +132,8 @@ li {
     height: 60vh;
 }
 
-.start-btn {
-    display: flex;
-    position: relative;
-    height: 60px;
-    width: 60px;
-    cursor: pointer;
-    border-radius: 50%;
-    background-color: #202020;
-    justify-content: center;
-    align-items: center;
-    transition: 400ms;
-    margin-top: 40px;
-}
-
-.start-btn:hover {
-    transform: scale(1.25, 1.25);
-    transition: 400ms;
-}
-
-.arrow {
-    transition: 400ms;
-}
-
-.start-btn:hover .arrow {
-    transform: scale(0.8, 0.8);
-    transition: 400ms;
-}
-
-.result-img {
-    display: flex;
-    position: relative;
-    width: 220px;
-    margin: 30px;
-    align-self: center;
+h1 {
+    font-size: 44px;
 }
 
 h2 {
@@ -255,6 +143,139 @@ h2 {
     text-align: center;
     margin: 0;
     line-height: 1;
+}
+
+body {
+    background-color: var(--black);
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: normal;
+    color: var(--black);
+}
+
+.landing-container {
+    background-color: var(--black);
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.icon-info {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    transform: rotate(0deg);
+    transform-origin: center;
+    transition: 300ms;
+}
+
+.icon-info:hover {
+    transform: rotate(15deg);
+    transition: 300ms;
+}
+
+#circle {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+    background-color: #F6F2EB;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+}
+
+.landing-title {
+    height: 49px;
+    font-weight: normal;
+    font-family: "IBM Plex Sans JP", sans-serif;
+    cursor: default;
+    letter-spacing: -2px;
+    line-height: 50px;
+}
+
+.icon-start {
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.icon-start:hover {
+    animation: move 700ms infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(15px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.overlay {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F6F2EB;
+    overflow-y: hidden;
+    transition: height 0.5s ease-in-out; /* Add transition */
+}
+.overlay a .icon-cancel {
+    position: absolute;
+    font-size: 60px;
+    top: 60px;
+    right: 60px;
+    stroke: var(--black);
+    fill: var(--black);
+}
+
+.about-container {
+    position: relative;
+    text-align: center;
+    top: 20%;
+    padding: 0 60px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.icon-cancel {
+    transition: 200ms;
+}
+
+.icon-cancel:hover {
+    transition: 200ms;
+    animation: rotate 400ms linear 1;
+    cursor: pointer;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(-20deg);
+    }
+    75% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 .result-nav {
@@ -299,6 +320,14 @@ h2 {
     border-top: 2px solid #202020;
     padding: 30px 0 30px 0;
     margin: 20px 0;
+}
+
+.result-img {
+    display: flex;
+    position: relative;
+    width: 220px;
+    margin: 30px;
+    align-self: center;
 }
 
 @media only screen and (max-width: 700px) {

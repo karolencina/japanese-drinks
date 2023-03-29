@@ -1,1 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10" stroke-width="40" d="M196 220h64v172M187 396h138"/><path d="M256 160a32 32 0 1132-32 32 32 0 01-32 32z"/></svg>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M196 220H260V392M187 396H325" stroke="#EEEEEE" stroke-width="20" stroke-miterlimit="10" stroke-linecap="square"/>
+<path d="M256 171C251.055 171 246.222 169.534 242.111 166.787C237.999 164.04 234.795 160.135 232.903 155.567C231.011 150.999 230.516 145.973 231.48 141.123C232.445 136.273 234.826 131.819 238.323 128.323C241.819 124.826 246.273 122.445 251.123 121.48C255.973 120.516 260.999 121.011 265.567 122.903C270.135 124.795 274.04 127.999 276.787 132.111C279.534 136.222 281 141.055 281 146C281 152.63 278.366 158.989 273.677 163.677C268.989 168.366 262.63 171 256 171Z" fill="#EEEEEE"/>
+</svg>

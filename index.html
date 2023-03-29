@@ -6,14 +6,13 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="icon" type="image/png" href="assets/icon.png"/>
-    <script src="scripts/overlay.js"></script>
-    <script src="scripts/translate.js"></script>
     <title>Japanese Beverages</title>
 </head>
 <body id="landing-body">
-    <nav id="nav" class="overlay">
+<div class=landing-container></div>
+    <nav id="overlay" class="overlay">
         <a href="javascript:void(0)" onclick="closeNav()">
-            <img alt="cancel" class="close" src="assets/cancel.svg">
+            <img alt="cancel" class="icon-cancel" src="assets/icons/close-sharp-black.svg">
         </a>
         <div class="about-container">
             <h3>About the website</h3>
@@ -35,22 +34,25 @@
             </p>
         </div>
     </nav>
-    <a onclick="openNav()" class="menu-btn">
-        <img alt="menu" src="assets/menu.svg" style="cursor: pointer">
+    <a onclick="openNav()">
+        <img alt="Info" src="assets/icons/information-sharp.svg" class="icon-info">
     </a>
     <section id="circle">
         <div class="content">
-            <h1 onmouseover="toLatin(this)" onmouseout="toJapanese(this)">こんにちは</h1>
-            <p class="p">
+            <h1 class="landing-title"onmouseover="toLatin(this)" onmouseout="toJapanese(this)">こんにちは</h1>
+            <p class="text">
                 Most people know what Japanese kitchen tastes like.
                 But can the same be said about Japanese drinks?
                 Click on the arrow and create your beverage!
             </p>
             <a class="start-btn" href="hot-cold.html">
-                <img alt="start" class="arrow" src="assets/arrow.svg">
+                <img alt="Start icon" class="icon-start" src="assets/icons/arrow-forward-sharp.svg">
             </a>
         </div>
     </section>
+<script src="scripts/landing.js"></script>
+<script src="scripts/overlay.js"></script>
+<script src="scripts/translate.js"></script>
 </body>
 </html>
 
