@@ -1,4 +1,4 @@
-const toLatin = x => {
+const toEnglish = x => {
   x.innerHTML = "Konnichiwa";
   x.style.fontFamily = "IBM Plex Sans, sans-serif";
 }
