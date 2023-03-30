@@ -19,6 +19,7 @@
 }
 
 .chosen-img {
+    height: 50px;
 }
 
 h1 {
@@ -94,7 +95,7 @@ li {
     height: 500px;
     width: 500px;
     padding: 50px;
-    background-color: #F6F2EB;
+    background-color: var(--white);
     border-radius: 50%;
     border: none;
     display: flex;
@@ -152,7 +153,7 @@ li {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #F6F2EB;
+    background-color: var(--white);
     overflow-y: hidden;
     transition: height 0.5s ease-in-out; /* Add transition */
 }
@@ -261,6 +262,7 @@ li {
 
 .choice-animation {
     height: auto;
+    cursor: pointer;
 }
 
 .choice-name {
@@ -317,7 +319,7 @@ li {
 }
 
 .result-text {
-    border-top: 2px solid #202020;
+    border-top: 2px solid var(--black);
     padding: 30px 0 30px 0;
     margin: 20px 0;
 }

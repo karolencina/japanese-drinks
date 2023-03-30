@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="icon" type="image/png" href="assets/icon.png"/>
     <script type="text/javascript" src="scripts/index.js"></script>
-    <title class="choice-title">Hot or Cold? - Japanese Drinks</title>
+    <title>Choose!</title>
 </head>
 <body>
 <section id="choose">
@@ -14,37 +14,17 @@
             <a id="firstBack" class=""><img alt="Icon back" src="assets/icons/arrow-back-sharp.svg"></a>
             <a onclick="confirmCancel()"><img class="icon-cancel" src="assets/icons/close-sharp-white.svg"></a>
         </nav>
-        <h2>Hot or Cold?</h2>
+        <h2 class="choices-title">Hot or Cold?</h2>
         <p class="choices-description">
-            Get cozy and warm yourself up
-            with a hot drink. Or would you prefer something cold
-            and refreshing?
+            Get cozy and warm yourself up with a hot drink. Or would you prefer something cold and refreshing?
         </p>
     </div>
     <div class="choices-container">
-            <div class="choice-card">
+            <div class="choice-card optionA">
                 <div class="animation-container">
-                <a class="choice-animation" href="leaves-flowers.html">
+                <a class="choice-animation animationA" onclick="handleOptAClick()">
                     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                     <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_supcfmjy.json"
-                                   background="transparent"
-                                   speed="1"
-                                   style="width: 180px; height: 180px;"
-                                   hover
-                                   loop
-                    >
-                    </lottie-player>
-                </a>
-                </div>
-                <h4 class="choice-name">Something</h4>
-            </div>
-            <div class="choice-card">
-                <div class="animation-container">
-                    <a class="choice-animation" href="alc-noalc.html">
-                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js">
-                    </script>
-                    <lottie-player class="animation"
-                                   src="https://assets3.lottiefiles.com/packages/lf20_xhibrjpg.json"
                                    background="transparent"
                                    speed="1"
                                    style="width: 130px; height: 130px;"
@@ -52,20 +32,39 @@
                                    loop
                     >
                     </lottie-player>
+                </a>
+                </div>
+                <h4 class="choice-name">Hot</h4>
+            </div>
+            <div class="choice-card optionB">
+                <div class="animation-container">
+                    <a class="choice-animation animationB" onclick="handleOptBClick()">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js">
+                    </script>
+                    <lottie-player class="animation"
+                                   src="https://assets3.lottiefiles.com/packages/lf20_xhibrjpg.json"
+                                   background="transparent"
+                                   speed="1"
+                                   style="width: 90px; height: 90px;"
+                                   hover
+                                   loop
+                    >
+                    </lottie-player>
                     </a>
                 </div>
 
-                <h4 class="choice-name">Something</h4>
+                <h4 class="choice-name">Cold</h4>
             </div>
     </div>
     <div class="chosen-container">
         <h4 class="chosen">Chosen:</h4>
         <div class="chosen-img-container">
             <ul>
-                <li class="chosen-img">you haven't chosen anything yet</li>
+                <li class="chosen-text">you haven't chosen anything yet</li>
             </ul>
         </div>
     </div>
 </section>
+<script src="scripts/choices.js"></script>
 </body>
 </html>
