@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.19 88.46"><defs><style>.cls-1{fill:none;stroke:#1f1f1f;stroke-miterlimit:10;stroke-width:3.2px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_9" data-name="Layer 9"><path class="cls-1" d="M52.61,9C67.87,21,74.15,40.08,70.2,57.24c-15.77,7.82-35.78,6.14-51-5.91S1.58,3.06,1.58,3.06,37.36-3.07,52.61,9Z"/><line class="cls-1" x1="1.58" y1="3.06" x2="108.26" y2="87.28"/></g></g></svg>
+<svg width="110" height="89" viewBox="0 0 110 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_84_560)">
+<path d="M52.61 8.99995C67.87 20.9999 74.15 40.0799 70.2 57.2399C54.43 65.0599 34.42 63.3799 19.2 51.3299C3.97996 39.2799 1.57996 3.05995 1.57996 3.05995C1.57996 3.05995 37.36 -3.07005 52.61 8.99995Z" stroke="#EEEEEE" stroke-width="3.2" stroke-miterlimit="10"/>
+<path d="M1.57996 3.05994L108.26 87.2799" stroke="#EEEEEE" stroke-width="3.2" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_84_560">
+<rect width="109.19" height="88.46" fill="white"/>
+</clipPath>
+</defs>
+</svg>

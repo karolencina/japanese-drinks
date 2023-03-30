@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65.21 105.12"><defs><style>.cls-1{fill:none;stroke:#1f1f1f;stroke-miterlimit:10;stroke-width:3.8px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_2-2" data-name="Layer 2"><path class="cls-1" d="M63.71,65.55c0,21-13.92,38.07-31.1,38.07S1.5,86.57,1.5,65.55s31.11-63,31.11-63S63.71,44.52,63.71,65.55Z"/></g></g></svg>
+<svg width="66" height="106" viewBox="0 0 66 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_84_569)">
+<path d="M63.71 65.5501C63.71 86.5501 49.79 103.62 32.61 103.62C15.43 103.62 1.5 86.5701 1.5 65.5501C1.5 44.5301 32.61 2.55005 32.61 2.55005C32.61 2.55005 63.71 44.5201 63.71 65.5501Z" stroke="#EEEEEE" stroke-width="3.8" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_84_569">
+<rect width="65.21" height="105.12" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.85 118.29"><defs><style>.cls-1{fill:none;stroke:#1f1f1f;stroke-miterlimit:10;stroke-width:4px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_9" data-name="Layer 9"><g id="Layer_29" data-name="Layer 29"><g id="Layer_30" data-name="Layer 30"><polygon class="cls-1" points="36.64 21.77 33.21 21.77 1.69 21.77 12.97 116.79 33.21 116.79 36.64 116.79 56.88 116.79 68.16 21.77 36.64 21.77"/><line class="cls-1" x1="5.42" y1="53.22" x2="63.91" y2="53.22"/><circle class="cls-1" cx="34.67" cy="5.49" r="3.99"/><circle class="cls-1" cx="21.32" cy="36.99" r="3.99"/><circle class="cls-1" cx="29.93" cy="67.23" r="3.99"/><circle class="cls-1" cx="50.58" cy="40.98" r="3.99"/></g></g></g></g></svg>
+<svg width="70" height="119" viewBox="0 0 70 119" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_84_508)">
+<path d="M36.6399 21.77H33.2099H1.68994L12.9699 116.79H33.2099H36.6399H56.8799L68.1599 21.77H36.6399Z" stroke="#EEEEEE" stroke-width="4" stroke-miterlimit="10"/>
+<path d="M5.41992 53.22H63.9099" stroke="#EEEEEE" stroke-width="4" stroke-miterlimit="10"/>
+<path d="M34.6699 9.48C36.8735 9.48 38.6599 7.69362 38.6599 5.49C38.6599 3.28638 36.8735 1.5 34.6699 1.5C32.4663 1.5 30.6799 3.28638 30.6799 5.49C30.6799 7.69362 32.4663 9.48 34.6699 9.48Z" stroke="#EEEEEE" stroke-width="4" stroke-miterlimit="10"/>
+<path d="M21.3198 40.98C23.5234 40.98 25.3098 39.1936 25.3098 36.99C25.3098 34.7864 23.5234 33 21.3198 33C19.1162 33 17.3298 34.7864 17.3298 36.99C17.3298 39.1936 19.1162 40.98 21.3198 40.98Z" stroke="#EEEEEE" stroke-width="4" stroke-miterlimit="10"/>
+<path d="M29.9299 71.22C32.1336 71.22 33.9199 69.4336 33.9199 67.23C33.9199 65.0264 32.1336 63.24 29.9299 63.24C27.7263 63.24 25.9399 65.0264 25.9399 67.23C25.9399 69.4336 27.7263 71.22 29.9299 71.22Z" stroke="#EEEEEE" stroke-width="4" stroke-miterlimit="10"/>
+<path d="M50.5798 44.97C52.7835 44.97 54.5698 43.1836 54.5698 40.98C54.5698 38.7764 52.7835 36.99 50.5798 36.99C48.3762 36.99 46.5898 38.7764 46.5898 40.98C46.5898 43.1836 48.3762 44.97 50.5798 44.97Z" stroke="#EEEEEE" stroke-width="4" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_84_508">
+<rect width="69.85" height="118.29" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.1 104.1"><defs><style>.cls-1{fill:none;stroke:#1f1f1f;stroke-miterlimit:10;stroke-width:3.5px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon class="cls-1" points="38.88 1.5 35.22 1.5 1.69 1.5 13.69 102.6 35.22 102.6 38.88 102.6 60.41 102.6 72.41 1.5 38.88 1.5"/><rect class="cls-1" x="36.35" y="79.46" width="12.34" height="12.34" transform="translate(56.48 -8.95) rotate(34.81)"/><rect class="cls-1" x="19.29" y="58.24" width="12.34" height="12.34" transform="translate(-28.79 21.36) rotate(-30)"/><rect class="cls-1" x="42.52" y="48.06" width="12.34" height="12.34"/><line class="cls-1" x1="5.66" y1="34.96" x2="67.89" y2="34.96"/></g></g></svg>
+<svg width="75" height="105" viewBox="0 0 75 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_84_522)">
+<path d="M38.8799 1.5H35.2199H1.68994L13.6899 102.6H35.2199H38.8799H60.4099L72.4099 1.5H38.8799Z" stroke="#EEEEEE" stroke-width="3.5" stroke-miterlimit="10"/>
+<path d="M51.0966 84.0856L40.9648 77.0413L33.9205 87.173L44.0522 94.2174L51.0966 84.0856Z" stroke="#EEEEEE" stroke-width="3.5" stroke-miterlimit="10"/>
+<path d="M27.7223 55.9823L17.0355 62.1523L23.2055 72.8391L33.8923 66.6691L27.7223 55.9823Z" stroke="#EEEEEE" stroke-width="3.5" stroke-miterlimit="10"/>
+<path d="M54.8599 48.0601H42.5199V60.4001H54.8599V48.0601Z" stroke="#EEEEEE" stroke-width="3.5" stroke-miterlimit="10"/>
+<path d="M5.65991 34.96H67.8899" stroke="#EEEEEE" stroke-width="3.5" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_84_522">
+<rect width="74.1" height="104.1" fill="white"/>
+</clipPath>
+</defs>
+</svg>
