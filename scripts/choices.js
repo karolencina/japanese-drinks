@@ -33,7 +33,7 @@ let choices = [
             <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_o20ioe4f.json"
                            background="transparent"
                            speed="1"
-                           style="width: 130px; height: 130px;"
+                           style="width: 110px; height: 110px;"
                            hover
                            loop
             >
@@ -42,7 +42,7 @@ let choices = [
             <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_ofhqjl4c.json"
                            background="transparent"
                            speed="1"
-                           style="width: 150px; height: 150px;"
+                           style="width: 130px; height: 130px;"
                            hover
                            loop
             >
@@ -107,21 +107,21 @@ let choices = [
         choicesDescription: "Don't worry! It's the good type of bacteria (it's called <em>LAB</em> or <em>Lactobacillus</em> and is a probiotic). Choose either that or soy.",
         optA: "Bacteria",
         optB: "Soy",
-        animationA: `<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        animationA: `<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
             <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_zfwtsojv.json"
                            mode="normal"
                            background="transparent"
                            speed="1"
-                           style="width: 160px; height: 160px;"
+                           style="width: 120px; height: 120px;"
                            hover
                            loop
             >
             </lottie-player>`,
-        animationB: `<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        animationB: `<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
             <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_hbzqmthi.json"
                            background="transparent"
                            speed="1"
-                           style="width: 220px; height: 220px; margin-top: 30px"
+                           style="width: 150px; height: 150px; margin-top: 30px"
                            hover
                            loop
             >
@@ -161,18 +161,18 @@ let choices = [
         choicesDescription: "Now the final ingredient - yeast or milk. You choose. (I promise it's not as bad as it sounds.)",
         optA: "Yeast",
         optB: "Milk",
-        animationA: `<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        animationA: `<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
             <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_1a81bhnj.json"
                            background="transparent"
                            speed="1"
-                           style="width: 170px; height: 170px;"
+                           style="width: 120px; height: 120px;"
                            loop
                            hover></lottie-player>`,
         animationB: `<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
             <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_noqhl2sd.json"
                            background="transparent"
                            speed="1"
-                           style="width: 200px; height: 200px; margin: 0 20px 10px 0"
+                           style="width: 140px; height: 140px; margin: 0 20px 10px 0"
                            hover
                            loop
             >
@@ -205,7 +205,7 @@ function caseFill(x) {
 }
 
 function showResult() {
-    window.location.href = "end-genmaicha.html"
+    window.location.href = "result.html"
 }
 
 function handleOptAClick() {
@@ -224,18 +224,18 @@ function handleOptAClick() {
                 caseFill(5);
                 break;
             case 'Plum':
-                window.location.href = "end-genmaicha.html"
+                window.location.href = "result.html"
                 result.innerHTML = "Umeshu";
                 break;
             case 'Bacteria':
-                optA.innerHTML = "Yeast";
-                optB.innerHTML = "Milk";
+                caseFill(6)
                 break;
             case 'Sunlight':
-                window.location.href = "end-genmaicha.html";
+                window.location.href = "result.html";
                 result.innerHTML = "Sencha";
                 break;
             case 'Yeast':
+                window.location.href = "result.html";
                 result.innerHTML = "Kombucha"
                 break;
             default:
@@ -251,27 +251,33 @@ function handleOptBClick() {
                 caseFill(1);
                 break;
             case 'Flower':
+                window.location.href = "result.html"
                 result.innerHTML = "Sakura";
                 break;
             case 'Soft':
-                caseFill();
+                caseFill(4);
                 break;
             case 'Blend':
-                window.location.href = "end-genmaicha.html"
+                window.location.href = "result.html"
                 break;
             case 'Rice':
+                window.location.href = "result.html";
                 result.innerHTML = "Sake"
                 break;
             case 'Soy':
+                window.location.href = "result.html";
                 result.innerHTML = "Soymilk"
                 break;
             case 'Plum':
+                window.location.href = "result.html";
                 result.innerHTML = "Umeshu";
                 break;
             case 'Shade':
+                window.location.href = "result.html";
                 result.innerHTML = "Matcha";
                 break;
             case 'Milk':
+                window.location.href = "result.html";
                 result.innerHTML = "Yakuruto";
                 break;
             default:
