@@ -192,8 +192,6 @@ let optB = document.querySelector(".optionB .choice-name");
 let chosen = document.querySelector(".chosen-img-container ul");
 let result = '';
 
-console.log(animationA.innerHTML)
-
 function caseFill(x) {
     choiceTitle.innerHTML = choices[x].choicesTitle;
     choiceDescription.innerHTML = choices[x].choicesDescription;
@@ -224,25 +222,27 @@ function handleOptAClick() {
                 caseFill(5);
                 break;
             case 'Plum':
-                window.location.href = "result.html"
-                result.innerHTML = "Umeshu";
+                localStorage.setItem('lastChoice', optA.innerHTML);
+                window.location.href = "result.html";
                 break;
             case 'Bacteria':
                 caseFill(6)
                 break;
             case 'Sunlight':
+                localStorage.setItem('lastChoice', optA.innerHTML);
                 window.location.href = "result.html";
-                result.innerHTML = "Sencha";
                 break;
             case 'Yeast':
+                localStorage.setItem('lastChoice', optA.innerHTML);
                 window.location.href = "result.html";
-                result.innerHTML = "Kombucha"
                 break;
             default:
                 console.log("Something went wrong");
         }
     }
 }
+
+
 
 function handleOptBClick() {
     if (result === '') {
@@ -251,37 +251,39 @@ function handleOptBClick() {
                 caseFill(1);
                 break;
             case 'Flower':
-                window.location.href = "result.html"
-                result.innerHTML = "Sakura";
+                localStorage.setItem('lastChoice', optB.innerHTML);
+                window.location.href = "result.html";
                 break;
             case 'Soft':
                 caseFill(4);
                 break;
             case 'Blend':
-                window.location.href = "result.html"
+                localStorage.setItem('lastChoice', optB.innerHTML);
+                window.location.href = "result.html";
                 break;
             case 'Rice':
+                localStorage.setItem('lastChoice', optB.innerHTML);
                 window.location.href = "result.html";
-                result.innerHTML = "Sake"
                 break;
             case 'Soy':
+                localStorage.setItem('lastChoice', optB.innerHTML);
                 window.location.href = "result.html";
-                result.innerHTML = "Soymilk"
                 break;
             case 'Plum':
+                localStorage.setItem('lastChoice', optB.innerHTML);
                 window.location.href = "result.html";
-                result.innerHTML = "Umeshu";
                 break;
             case 'Shade':
+                localStorage.setItem('lastChoice', optB.innerHTML);
                 window.location.href = "result.html";
-                result.innerHTML = "Matcha";
                 break;
             case 'Milk':
+                localStorage.setItem('lastChoice', optB.innerHTML);
                 window.location.href = "result.html";
-                result.innerHTML = "Yakuruto";
                 break;
             default:
                 console.log("Something went wrong");
         }
     }
 }
+
