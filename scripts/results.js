@@ -6,7 +6,7 @@ let results = [
     },
     {
         resultTitle: "Genmaicha",
-        resultText: "f",
+        resultText: `You got Genmaicha! Genmaicha is a mixture of almost the same amount of green tea heated at high temperatures, and brown rice steamed and roasted until it gets a light ginger color or bursts like popcorn. Some also contain a dash of salt. The quality of genmaicha depends more on the quality of the brown rice than the tea leaves.`,
         resultImg: `<img src="assets/results/genmaicha.svg">`
     },
     {
@@ -16,32 +16,32 @@ let results = [
     },
     {
         resultTitle: "Sake",
-        resultText: "f",
+        resultText: `You got Sake! Sake is an alcoholic drink made from fermented rice. The foundations of good sake are quality rice, clean water, koji mold and yeast. They are combined and fermented in precise processes that have been refined over the centuries.`,
         resultImg: `<img src="assets/results/sake.svg">`
     },
     {
         resultTitle: "Tonyu",
-        resultText: "f",
+        resultText: `You got Tonyu! Did you know that soy milk (<em>Tonyu</em> or <em>豆乳</em>) is the most popular plant-based milk in Japan? It is available in over 50 flavors. The drink produced by grinding dried soybeans in water and it is very high nutritional content, containing a healthy amount of protein and carbohydrates, and no cholesterol.`,
         resultImg: `<img src="assets/results/soymilk.svg">`
     },
     {
         resultTitle: "Sencha",
-        resultText: `You got Sencha! The abundance of sunlight during the cultivation of sencha results in rapid growth, increased vitamin C, as well as a high level of tannin which gives sencha its characteristic sharp flavor. The steaming process lasts for about 20 seconds, and is performed within 20 hours after the leaves are picked. Thanks to this steaming process, most of the leaves' green color, fragrance and nutritional components are retained.`,
+        resultText: `You got Sencha! The abundance of sunlight during the cultivation of sencha results in rapid growth, increased vitamin C, as well as a high level of tannin which gives sencha its characteristic sharp flavor. The steaming process is performed within 20 hours after the leaves are picked. Thanks to this steaming process, most of the leaves' green color, fragrance and nutritional components are retained.`,
         resultImg: `<img src="assets/results/sencha.svg">`
     },
     {
         resultTitle: "Matcha",
-        resultText: "",
+        resultText: `You got Matcha! Only the highest quality leaves grown in shade are used for matcha. Leaves are dried and milled into a fine powder which is then mixed with hot water. Matcha is the form of green tea that is used in tea ceremony.`,
         resultImg: `<img src="assets/results/matcha.svg">`
     },
     {
         resultTitle: "Kombucha",
-        resultText: "",
+        resultText: `You got Kombucha! Kombucha is an acidic, fermented drink made from a base of tea, sugar, bacteria and yeast. To make kombucha, a <em>symbiotic colony of bacteria and yeast</em> (<em>SCOBY</em>) is added to the tea and sugar, and the mixture is allowed to ferment. Although it's tea-based, Kombucha tastes nothing like tea but more like a mixture of cider, wine and beer.`,
         resultImg: `<img src="assets/results/kombucha.svg">`
     },
     {
         resultTitle: "Yakuruto",
-        resultText: "",
+        resultText: `You got Yakuruto (you may know it as Yakult)! This fermented milk-based drink's history started in 1930s in Japan, when scientist Dr. Minoru Shirota, cultivated the <em>Lactobacillus casei Shirota</em>bacteria. It took Dr. Shirota another 5 years of research to find the right food medium for the L. casei Shirota bacteria. In 1935 the first bottle of Yakult, was produced.`,
         resultImg: `<img src="assets/results/yakuruto.svg">`
     },
 ];

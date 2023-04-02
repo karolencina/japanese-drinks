@@ -317,18 +317,32 @@ li {
     transform-origin: center;
 }
 
+.result-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .result-text {
     border-top: 2px solid var(--black);
-    padding: 30px 0 30px 0;
-    margin: 20px 0;
+    padding: 25px 0;
+    flex-grow: 1;
+    text-align: center;
 }
 
 .result-img {
     display: flex;
     position: relative;
-    width: 220px;
-    margin: 30px;
-    align-self: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.result-img img {
+    max-height: 200px;
 }
 
 @media only screen and (max-width: 700px) {
