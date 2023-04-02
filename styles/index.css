@@ -90,6 +90,7 @@ li {
 }
 
 #circle {
+    opacity: 0;
     position: absolute;
     height: 500px;
     width: 500px;
@@ -98,6 +99,11 @@ li {
     border-radius: 50%;
     border: none;
     display: flex;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#circle.show {
+    opacity: 1;
 }
 
 .landing-content {
@@ -204,13 +210,20 @@ li {
 }
 
 #choose {
+    opacity: 0;
     color: var(--white);
     max-width: 1000px;
     display: flex;
     flex-direction: column;
     margin: auto;
     padding: 25px;
+    transition: opacity 0.5s ease-in-out;
 }
+
+#choose.show {
+    opacity: 1;
+}
+
 
 .choose-nav {
     display: flex;
@@ -301,6 +314,7 @@ li {
 }
 
 .result-card {
+    opacity: 0;
     background: var(--white);
     position: absolute;
     width: 379px;
@@ -309,7 +323,11 @@ li {
     border-radius: 50px;
     transform: rotate(0deg);
     transform-origin: center;
-    transition: transform 0.2s ease-in-out;
+    transition: opacity 0.5s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.result-card.show {
+    opacity: 1;
 }
 
 .result-card:hover {
